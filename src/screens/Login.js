@@ -40,14 +40,14 @@ class Login extends Component {
     return (
       <View style={styles.container}>
         <View>
-          <FormLabel>EMAIL</FormLabel>
+          <FormLabel>{i18n.t('label_email')}</FormLabel>
           <FormInput
             placeholder={i18n.t('placeholder_email')}
             onChangeText={texto => this.setState({ email: texto })}
             value={email}
             keyboardType='email-address'
           />
-          <FormLabel>PASSWORD</FormLabel>
+          <FormLabel>{i18n.t('label_password')}</FormLabel>
           <FormInput
             placeholder={i18n.t('placeholder_password')}
             onChangeText={texto => this.setState({ password: texto })}
