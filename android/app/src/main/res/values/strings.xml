@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">ideaapp</string>
+  <string name="facebook_app_id">187669158730696</string>
+  <string name="fb_login_protocol_scheme">fb187669158730696</string>
+</resources>
